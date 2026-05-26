@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy
+yfinance
+jquants-api-client>=1.9.0
+xgboost
+scikit-learn
+anthropic
+matplotlib
+plotly
+pytest
+python-dotenv
+finta
