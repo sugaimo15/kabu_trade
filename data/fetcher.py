@@ -121,6 +121,10 @@ def get_daily_ohlcv(
     if raw.empty:
         return pd.DataFrame()
 
+    # yfinance 0.2+ は MultiIndex カラム ('Open', '7203.T') を返すためフラット化
+    if isinstance(raw.columns, pd.MultiIndex):
+        raw.columns = raw.columns.get_level_values(0)
+
     df = raw[["Open", "High", "Low", "Close", "Volume"]].copy()
     df.index.name = "date"
     df.index = pd.to_datetime(df.index)
