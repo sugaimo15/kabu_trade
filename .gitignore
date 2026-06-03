@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 *.pyo
 data/cache/
-trading/data/
 output/
 *.png
 .pytest_cache/
