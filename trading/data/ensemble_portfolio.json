@@ -1,9 +1,24 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 9816.0,
+  "cash": 367.0,
   "created_at": "2026-05-29",
-  "positions": {},
+  "positions": {
+    "8306": {
+      "ticker": "8306",
+      "name": "三菱UFJ",
+      "shares": 1,
+      "entry_price": 3219.0,
+      "entry_date": "2026-06-05"
+    },
+    "8316": {
+      "ticker": "8316",
+      "name": "三井住友FG",
+      "shares": 1,
+      "entry_price": 6230.0,
+      "entry_date": "2026-06-05"
+    }
+  },
   "trades": [
     {
       "date": "2026-05-29",
@@ -26,6 +41,28 @@
       "amount": 7800.0,
       "pnl": -184.0,
       "pnl_pct": -2.3
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "8306",
+      "name": "三菱UFJ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 3219.0,
+      "amount": 3219.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "8316",
+      "name": "三井住友FG",
+      "action": "BUY",
+      "shares": 1,
+      "price": 6230.0,
+      "amount": 6230.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
