@@ -1,17 +1,9 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 2664.0,
+  "cash": 9712.0,
   "created_at": "2026-05-29",
-  "positions": {
-    "9984": {
-      "ticker": "9984",
-      "name": "ソフトバンクグループ",
-      "shares": 1,
-      "entry_price": 6976.0,
-      "entry_date": "2026-06-08"
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "date": "2026-05-29",
@@ -89,6 +81,17 @@
       "amount": 6976.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 7048.0,
+      "amount": 7048.0,
+      "pnl": 72.0,
+      "pnl_pct": 1.03
     }
   ]
 }
