@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 302.0,
+  "cash": 6505.0,
   "created_at": "2026-05-29",
   "positions": {
     "8306": {
@@ -9,13 +9,6 @@
       "name": "三菱UFJ",
       "shares": 1,
       "entry_price": 3183.0,
-      "entry_date": "2026-06-10"
-    },
-    "8316": {
-      "ticker": "8316",
-      "name": "三井住友FG",
-      "shares": 1,
-      "entry_price": 6227.0,
       "entry_date": "2026-06-10"
     }
   },
@@ -129,6 +122,17 @@
       "amount": 6227.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "8316",
+      "name": "三井住友FG",
+      "action": "SELL",
+      "shares": 1,
+      "price": 6203.0,
+      "amount": 6203.0,
+      "pnl": -24.0,
+      "pnl_pct": -0.39
     }
   ]
 }
