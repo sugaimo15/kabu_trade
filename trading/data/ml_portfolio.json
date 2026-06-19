@@ -1,15 +1,15 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 6263.0,
+  "cash": 2430.0,
   "created_at": "2026-05-29",
   "positions": {
-    "8306": {
-      "ticker": "8306",
-      "name": "三菱UFJ",
+    "9984": {
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
       "shares": 1,
-      "entry_price": 3374.0,
-      "entry_date": "2026-06-18"
+      "entry_price": 7111.0,
+      "entry_date": "2026-06-19"
     }
   },
   "trades": [
@@ -175,6 +175,28 @@
       "shares": 1,
       "price": 3374.0,
       "amount": 3374.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-06-19",
+      "ticker": "8306",
+      "name": "三菱UFJ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3278.0,
+      "amount": 3278.0,
+      "pnl": -96.0,
+      "pnl_pct": -2.85
+    },
+    {
+      "date": "2026-06-19",
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 7111.0,
+      "amount": 7111.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
     }
