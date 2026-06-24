@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 6407.0,
+  "cash": 51.0,
   "created_at": "2026-05-29",
   "positions": {
     "8306": {
@@ -10,6 +10,13 @@
       "shares": 1,
       "entry_price": 3267.0,
       "entry_date": "2026-06-23"
+    },
+    "8316": {
+      "ticker": "8316",
+      "name": "三井住友FG",
+      "shares": 1,
+      "entry_price": 6356.0,
+      "entry_date": "2026-06-24"
     }
   },
   "trades": [
@@ -219,6 +226,17 @@
       "shares": 1,
       "price": 3267.0,
       "amount": 3267.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "8316",
+      "name": "三井住友FG",
+      "action": "BUY",
+      "shares": 1,
+      "price": 6356.0,
+      "amount": 6356.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
     }
