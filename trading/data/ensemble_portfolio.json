@@ -1,9 +1,17 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 9985.0,
+  "cash": 6885.0,
   "created_at": "2026-05-29",
-  "positions": {},
+  "positions": {
+    "7267": {
+      "ticker": "7267",
+      "name": "ホンダ",
+      "shares": 2,
+      "entry_price": 1550.0,
+      "entry_date": "2026-07-03"
+    }
+  },
   "trades": [
     {
       "date": "2026-05-29",
@@ -268,6 +276,17 @@
       "amount": 6195.0,
       "pnl": 195.0,
       "pnl_pct": 3.25
+    },
+    {
+      "date": "2026-07-03",
+      "ticker": "7267",
+      "name": "ホンダ",
+      "action": "BUY",
+      "shares": 2,
+      "price": 1550.0,
+      "amount": 3100.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
