@@ -1,15 +1,15 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 6885.0,
+  "cash": 8000.0,
   "created_at": "2026-05-29",
   "positions": {
-    "7267": {
-      "ticker": "7267",
-      "name": "ホンダ",
-      "shares": 2,
-      "entry_price": 1550.0,
-      "entry_date": "2026-07-03"
+    "3382": {
+      "ticker": "3382",
+      "name": "セブン&アイHD",
+      "shares": 1,
+      "entry_price": 2083.0,
+      "entry_date": "2026-07-06"
     }
   },
   "trades": [
@@ -287,6 +287,28 @@
       "amount": 3100.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "3382",
+      "name": "セブン&アイHD",
+      "action": "BUY",
+      "shares": 1,
+      "price": 2083.0,
+      "amount": 2083.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "7267",
+      "name": "ホンダ",
+      "action": "SELL",
+      "shares": 2,
+      "price": 1599.0,
+      "amount": 3198.0,
+      "pnl": 98.0,
+      "pnl_pct": 3.16
     }
   ]
 }
