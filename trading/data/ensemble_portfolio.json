@@ -1,7 +1,7 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 520.0,
+  "cash": 778.0,
   "created_at": "2026-05-29",
   "positions": {
     "9984": {
@@ -11,12 +11,12 @@
       "entry_price": 5961.0,
       "entry_date": "2026-07-16"
     },
-    "9022": {
-      "ticker": "9022",
-      "name": "JR東海",
+    "8306": {
+      "ticker": "8306",
+      "name": "三菱UFJ",
       "shares": 1,
-      "entry_price": 3766.0,
-      "entry_date": "2026-07-20"
+      "entry_price": 3580.0,
+      "entry_date": "2026-07-21"
     }
   },
   "trades": [
@@ -369,6 +369,28 @@
       "shares": 1,
       "price": 3766.0,
       "amount": 3766.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-07-21",
+      "ticker": "9022",
+      "name": "JR東海",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3838.0,
+      "amount": 3838.0,
+      "pnl": 72.0,
+      "pnl_pct": 1.91
+    },
+    {
+      "date": "2026-07-21",
+      "ticker": "8306",
+      "name": "三菱UFJ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 3580.0,
+      "amount": 3580.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
     }
