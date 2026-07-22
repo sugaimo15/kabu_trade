@@ -1,24 +1,9 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 778.0,
+  "cash": 10149.0,
   "created_at": "2026-05-29",
-  "positions": {
-    "9984": {
-      "ticker": "9984",
-      "name": "ソフトバンクグループ",
-      "shares": 1,
-      "entry_price": 5961.0,
-      "entry_date": "2026-07-16"
-    },
-    "8306": {
-      "ticker": "8306",
-      "name": "三菱UFJ",
-      "shares": 1,
-      "entry_price": 3580.0,
-      "entry_date": "2026-07-21"
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "date": "2026-05-29",
@@ -393,6 +378,28 @@
       "amount": 3580.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-07-22",
+      "ticker": "8306",
+      "name": "三菱UFJ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3668.0,
+      "amount": 3668.0,
+      "pnl": 88.0,
+      "pnl_pct": 2.46
+    },
+    {
+      "date": "2026-07-22",
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 5703.0,
+      "amount": 5703.0,
+      "pnl": -258.0,
+      "pnl_pct": -4.33
     }
   ]
 }
