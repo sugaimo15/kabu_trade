@@ -1,22 +1,22 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 2569.0,
+  "cash": 675.0,
   "created_at": "2026-05-29",
   "positions": {
-    "8306": {
-      "ticker": "8306",
-      "name": "三菱UFJ",
-      "shares": 1,
-      "entry_price": 3750.0,
-      "entry_date": "2026-07-23"
-    },
     "9022": {
       "ticker": "9022",
       "name": "JR東海",
       "shares": 1,
       "entry_price": 3830.0,
       "entry_date": "2026-07-23"
+    },
+    "4502": {
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "shares": 1,
+      "entry_price": 5648.0,
+      "entry_date": "2026-07-24"
     }
   },
   "trades": [
@@ -435,6 +435,28 @@
       "shares": 1,
       "price": 3830.0,
       "amount": 3830.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "8306",
+      "name": "三菱UFJ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3754.0,
+      "amount": 3754.0,
+      "pnl": 4.0,
+      "pnl_pct": 0.11
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "action": "BUY",
+      "shares": 1,
+      "price": 5648.0,
+      "amount": 5648.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
     }
