@@ -1,17 +1,9 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 6373.0,
+  "cash": 10275.0,
   "created_at": "2026-05-29",
-  "positions": {
-    "9022": {
-      "ticker": "9022",
-      "name": "JR東海",
-      "shares": 1,
-      "entry_price": 3830.0,
-      "entry_date": "2026-07-23"
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "date": "2026-05-29",
@@ -485,6 +477,17 @@
       "amount": 5260.0,
       "pnl": -71.0,
       "pnl_pct": -1.33
+    },
+    {
+      "date": "2026-08-03",
+      "ticker": "9022",
+      "name": "JR東海",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3902.0,
+      "amount": 3902.0,
+      "pnl": 72.0,
+      "pnl_pct": 1.88
     }
   ]
 }
