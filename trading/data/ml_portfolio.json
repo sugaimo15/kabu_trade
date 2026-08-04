@@ -1,9 +1,31 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 10275.0,
+  "cash": 2361.0,
   "created_at": "2026-05-29",
-  "positions": {},
+  "positions": {
+    "9433": {
+      "ticker": "9433",
+      "name": "KDDI",
+      "shares": 1,
+      "entry_price": 2873.5,
+      "entry_date": "2026-08-04"
+    },
+    "7267": {
+      "ticker": "7267",
+      "name": "ホンダ",
+      "shares": 2,
+      "entry_price": 1575.0,
+      "entry_date": "2026-08-04"
+    },
+    "6902": {
+      "ticker": "6902",
+      "name": "デンソー",
+      "shares": 1,
+      "entry_price": 1890.5,
+      "entry_date": "2026-08-04"
+    }
+  },
   "trades": [
     {
       "date": "2026-05-29",
@@ -488,6 +510,39 @@
       "amount": 3902.0,
       "pnl": 72.0,
       "pnl_pct": 1.88
+    },
+    {
+      "date": "2026-08-04",
+      "ticker": "9433",
+      "name": "KDDI",
+      "action": "BUY",
+      "shares": 1,
+      "price": 2873.5,
+      "amount": 2873.5,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-04",
+      "ticker": "7267",
+      "name": "ホンダ",
+      "action": "BUY",
+      "shares": 2,
+      "price": 1575.0,
+      "amount": 3150.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-04",
+      "ticker": "6902",
+      "name": "デンソー",
+      "action": "BUY",
+      "shares": 1,
+      "price": 1890.5,
+      "amount": 1890.5,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
