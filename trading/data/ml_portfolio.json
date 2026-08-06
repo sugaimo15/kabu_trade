@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 3987.0,
+  "cash": 140.0,
   "created_at": "2026-05-29",
   "positions": {
     "9433": {
@@ -17,6 +17,13 @@
       "shares": 1,
       "entry_price": 3565.0,
       "entry_date": "2026-08-05"
+    },
+    "9022": {
+      "ticker": "9022",
+      "name": "JR東海",
+      "shares": 1,
+      "entry_price": 3847.0,
+      "entry_date": "2026-08-06"
     }
   },
   "trades": [
@@ -569,6 +576,17 @@
       "amount": 1919.0,
       "pnl": 28.5,
       "pnl_pct": 1.51
+    },
+    {
+      "date": "2026-08-06",
+      "ticker": "9022",
+      "name": "JR東海",
+      "action": "BUY",
+      "shares": 1,
+      "price": 3847.0,
+      "amount": 3847.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
