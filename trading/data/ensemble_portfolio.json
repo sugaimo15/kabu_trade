@@ -1,23 +1,9 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 140.0,
+  "cash": 6842.0,
   "created_at": "2026-05-29",
   "positions": {
-    "9433": {
-      "ticker": "9433",
-      "name": "KDDI",
-      "shares": 1,
-      "entry_price": 2873.5,
-      "entry_date": "2026-08-04"
-    },
-    "6758": {
-      "ticker": "6758",
-      "name": "ソニーグループ",
-      "shares": 1,
-      "entry_price": 3565.0,
-      "entry_date": "2026-08-05"
-    },
     "9022": {
       "ticker": "9022",
       "name": "JR東海",
@@ -587,6 +573,28 @@
       "amount": 3847.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-07",
+      "ticker": "6758",
+      "name": "ソニーグループ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3721.0,
+      "amount": 3721.0,
+      "pnl": 156.0,
+      "pnl_pct": 4.38
+    },
+    {
+      "date": "2026-08-07",
+      "ticker": "9433",
+      "name": "KDDI",
+      "action": "SELL",
+      "shares": 1,
+      "price": 2981.0,
+      "amount": 2981.0,
+      "pnl": 107.5,
+      "pnl_pct": 3.74
     }
   ]
 }
