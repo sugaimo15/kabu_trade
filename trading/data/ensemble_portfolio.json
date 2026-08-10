@@ -1,7 +1,7 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 6842.0,
+  "cash": 3078.0,
   "created_at": "2026-05-29",
   "positions": {
     "9022": {
@@ -10,6 +10,13 @@
       "shares": 1,
       "entry_price": 3847.0,
       "entry_date": "2026-08-06"
+    },
+    "6758": {
+      "ticker": "6758",
+      "name": "ソニーグループ",
+      "shares": 1,
+      "entry_price": 3764.0,
+      "entry_date": "2026-08-10"
     }
   },
   "trades": [
@@ -595,6 +602,17 @@
       "amount": 2981.0,
       "pnl": 107.5,
       "pnl_pct": 3.74
+    },
+    {
+      "date": "2026-08-10",
+      "ticker": "6758",
+      "name": "ソニーグループ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 3764.0,
+      "amount": 3764.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
