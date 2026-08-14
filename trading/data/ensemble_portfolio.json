@@ -1,22 +1,15 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 4876.5,
+  "cash": 7438.500061035156,
   "created_at": "2026-05-29",
   "positions": {
-    "9022": {
-      "ticker": "9022",
-      "name": "JR東海",
-      "shares": 1,
-      "entry_price": 3847.0,
-      "entry_date": "2026-08-06"
-    },
-    "6902": {
-      "ticker": "6902",
-      "name": "デンソー",
-      "shares": 1,
-      "entry_price": 1901.5,
-      "entry_date": "2026-08-13"
+    "9432": {
+      "ticker": "9432",
+      "name": "NTT",
+      "shares": 20,
+      "entry_price": 162.6999969482422,
+      "entry_date": "2026-08-14"
     }
   },
   "trades": [
@@ -635,6 +628,39 @@
       "amount": 1901.5,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "ticker": "9432",
+      "name": "NTT",
+      "action": "BUY",
+      "shares": 20,
+      "price": 162.6999969482422,
+      "amount": 3253.9999389648438,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "ticker": "9022",
+      "name": "JR東海",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3861.0,
+      "amount": 3861.0,
+      "pnl": 14.0,
+      "pnl_pct": 0.36
+    },
+    {
+      "date": "2026-08-14",
+      "ticker": "6902",
+      "name": "デンソー",
+      "action": "SELL",
+      "shares": 1,
+      "price": 1955.0,
+      "amount": 1955.0,
+      "pnl": 53.5,
+      "pnl_pct": 2.81
     }
   ]
 }
