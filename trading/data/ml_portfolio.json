@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 7472.200042724609,
+  "cash": 464.2000427246094,
   "created_at": "2026-05-29",
   "positions": {
     "9432": {
@@ -10,6 +10,20 @@
       "shares": 17,
       "entry_price": 161.39999389648438,
       "entry_date": "2026-08-20"
+    },
+    "7267": {
+      "ticker": "7267",
+      "name": "ホンダ",
+      "shares": 1,
+      "entry_price": 1753.0,
+      "entry_date": "2026-08-21"
+    },
+    "9984": {
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "shares": 1,
+      "entry_price": 5255.0,
+      "entry_date": "2026-08-21"
     }
   },
   "trades": [
@@ -727,6 +741,28 @@
       "amount": 1946.0,
       "pnl": 12.5,
       "pnl_pct": 0.65
+    },
+    {
+      "date": "2026-08-21",
+      "ticker": "7267",
+      "name": "ホンダ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 1753.0,
+      "amount": 1753.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-21",
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 5255.0,
+      "amount": 5255.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
