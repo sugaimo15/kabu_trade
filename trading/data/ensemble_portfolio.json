@@ -1,9 +1,24 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 10183.20004272461,
+  "cash": 2940.2000427246094,
   "created_at": "2026-05-29",
-  "positions": {},
+  "positions": {
+    "9984": {
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "shares": 1,
+      "entry_price": 5262.0,
+      "entry_date": "2026-09-01"
+    },
+    "6902": {
+      "ticker": "6902",
+      "name": "デンソー",
+      "shares": 1,
+      "entry_price": 1981.0,
+      "entry_date": "2026-09-01"
+    }
+  },
   "trades": [
     {
       "date": "2026-05-29",
@@ -796,6 +811,28 @@
       "amount": 1919.0,
       "pnl": -21.5,
       "pnl_pct": -1.11
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 5262.0,
+      "amount": 5262.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-01",
+      "ticker": "6902",
+      "name": "デンソー",
+      "action": "BUY",
+      "shares": 1,
+      "price": 1981.0,
+      "amount": 1981.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
