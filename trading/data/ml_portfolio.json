@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 2940.2000427246094,
+  "cash": 4862.200042724609,
   "created_at": "2026-05-29",
   "positions": {
     "9984": {
@@ -9,13 +9,6 @@
       "name": "ソフトバンクグループ",
       "shares": 1,
       "entry_price": 5262.0,
-      "entry_date": "2026-09-01"
-    },
-    "6902": {
-      "ticker": "6902",
-      "name": "デンソー",
-      "shares": 1,
-      "entry_price": 1981.0,
       "entry_date": "2026-09-01"
     }
   },
@@ -833,6 +826,17 @@
       "amount": 1981.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-02",
+      "ticker": "6902",
+      "name": "デンソー",
+      "action": "SELL",
+      "shares": 1,
+      "price": 1922.0,
+      "amount": 1922.0,
+      "pnl": -59.0,
+      "pnl_pct": -2.98
     }
   ]
 }
