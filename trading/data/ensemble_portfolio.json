@@ -1,15 +1,22 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 4862.200042724609,
+  "cash": 4650.700042724609,
   "created_at": "2026-05-29",
   "positions": {
-    "9984": {
-      "ticker": "9984",
-      "name": "ソフトバンクグループ",
+    "6758": {
+      "ticker": "6758",
+      "name": "ソニーグループ",
       "shares": 1,
-      "entry_price": 5262.0,
-      "entry_date": "2026-09-01"
+      "entry_price": 3885.0,
+      "entry_date": "2026-09-04"
+    },
+    "6902": {
+      "ticker": "6902",
+      "name": "デンソー",
+      "shares": 1,
+      "entry_price": 1916.5,
+      "entry_date": "2026-09-04"
     }
   },
   "trades": [
@@ -837,6 +844,39 @@
       "amount": 1922.0,
       "pnl": -59.0,
       "pnl_pct": -2.98
+    },
+    {
+      "date": "2026-09-04",
+      "ticker": "6758",
+      "name": "ソニーグループ",
+      "action": "BUY",
+      "shares": 1,
+      "price": 3885.0,
+      "amount": 3885.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-04",
+      "ticker": "9984",
+      "name": "ソフトバンクグループ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 5590.0,
+      "amount": 5590.0,
+      "pnl": 328.0,
+      "pnl_pct": 6.23
+    },
+    {
+      "date": "2026-09-04",
+      "ticker": "6902",
+      "name": "デンソー",
+      "action": "BUY",
+      "shares": 1,
+      "price": 1916.5,
+      "amount": 1916.5,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
