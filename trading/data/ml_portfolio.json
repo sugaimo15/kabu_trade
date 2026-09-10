@@ -1,16 +1,9 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 1443.499984741211,
+  "cash": 5083.499984741211,
   "created_at": "2026-05-29",
   "positions": {
-    "6758": {
-      "ticker": "6758",
-      "name": "ソニーグループ",
-      "shares": 1,
-      "entry_price": 3885.0,
-      "entry_date": "2026-09-04"
-    },
     "6902": {
       "ticker": "6902",
       "name": "デンソー",
@@ -895,6 +888,17 @@
       "amount": 3207.2000579833984,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-10",
+      "ticker": "6758",
+      "name": "ソニーグループ",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3640.0,
+      "amount": 3640.0,
+      "pnl": -245.0,
+      "pnl_pct": -6.31
     }
   ]
 }
