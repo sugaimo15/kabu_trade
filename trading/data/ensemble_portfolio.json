@@ -1,16 +1,9 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 5083.499984741211,
+  "cash": 7004.499984741211,
   "created_at": "2026-05-29",
   "positions": {
-    "6902": {
-      "ticker": "6902",
-      "name": "デンソー",
-      "shares": 1,
-      "entry_price": 1916.5,
-      "entry_date": "2026-09-04"
-    },
     "9432": {
       "ticker": "9432",
       "name": "NTT",
@@ -899,6 +892,17 @@
       "amount": 3640.0,
       "pnl": -245.0,
       "pnl_pct": -6.31
+    },
+    {
+      "date": "2026-09-11",
+      "ticker": "6902",
+      "name": "デンソー",
+      "action": "SELL",
+      "shares": 1,
+      "price": 1921.0,
+      "amount": 1921.0,
+      "pnl": 4.5,
+      "pnl_pct": 0.23
     }
   ]
 }
