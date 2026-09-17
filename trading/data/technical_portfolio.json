@@ -1,9 +1,24 @@
 {
   "strategy_name": "technical",
   "initial_capital": 10000,
-  "cash": 9962.5,
+  "cash": 1083.5,
   "created_at": "2026-05-29",
-  "positions": {},
+  "positions": {
+    "4502": {
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "shares": 1,
+      "entry_price": 5946.0,
+      "entry_date": "2026-09-17"
+    },
+    "4568": {
+      "ticker": "4568",
+      "name": "第一三共",
+      "shares": 1,
+      "entry_price": 2933.0,
+      "entry_date": "2026-09-17"
+    }
+  },
   "trades": [
     {
       "date": "2026-09-04",
@@ -26,6 +41,28 @@
       "amount": 1879.0,
       "pnl": -37.5,
       "pnl_pct": -1.96
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "action": "BUY",
+      "shares": 1,
+      "price": 5946.0,
+      "amount": 5946.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "4568",
+      "name": "第一三共",
+      "action": "BUY",
+      "shares": 1,
+      "price": 2933.0,
+      "amount": 2933.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
