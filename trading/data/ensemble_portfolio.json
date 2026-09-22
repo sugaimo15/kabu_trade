@@ -1,7 +1,7 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 5618.500137329102,
+  "cash": 2558.5001373291016,
   "created_at": "2026-05-29",
   "positions": {
     "6902": {
@@ -17,6 +17,13 @@
       "shares": 1,
       "entry_price": 2953.5,
       "entry_date": "2026-09-21"
+    },
+    "9433": {
+      "ticker": "9433",
+      "name": "KDDI",
+      "shares": 1,
+      "entry_price": 3060.0,
+      "entry_date": "2026-09-22"
     }
   },
   "trades": [
@@ -1051,6 +1058,17 @@
       "shares": 1,
       "price": 2953.5,
       "amount": 2953.5,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "9433",
+      "name": "KDDI",
+      "action": "BUY",
+      "shares": 1,
+      "price": 3060.0,
+      "amount": 3060.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
     }
