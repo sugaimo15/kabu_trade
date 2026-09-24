@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 2558.5001373291016,
+  "cash": 6020.90022277832,
   "created_at": "2026-05-29",
   "positions": {
     "6902": {
@@ -11,19 +11,12 @@
       "entry_price": 1915.0,
       "entry_date": "2026-09-18"
     },
-    "4568": {
-      "ticker": "4568",
-      "name": "第一三共",
-      "shares": 1,
-      "entry_price": 2953.5,
-      "entry_date": "2026-09-21"
-    },
-    "9433": {
-      "ticker": "9433",
-      "name": "KDDI",
-      "shares": 1,
-      "entry_price": 3060.0,
-      "entry_date": "2026-09-22"
+    "9432": {
+      "ticker": "9432",
+      "name": "NTT",
+      "shares": 14,
+      "entry_price": 174.89999389648438,
+      "entry_date": "2026-09-24"
     }
   },
   "trades": [
@@ -1071,6 +1064,39 @@
       "amount": 3060.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "9432",
+      "name": "NTT",
+      "action": "BUY",
+      "shares": 14,
+      "price": 174.89999389648438,
+      "amount": 2448.5999145507812,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "9433",
+      "name": "KDDI",
+      "action": "SELL",
+      "shares": 1,
+      "price": 3031.0,
+      "amount": 3031.0,
+      "pnl": -29.0,
+      "pnl_pct": -0.95
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "4568",
+      "name": "第一三共",
+      "action": "SELL",
+      "shares": 1,
+      "price": 2880.0,
+      "amount": 2880.0,
+      "pnl": -73.5,
+      "pnl_pct": -2.49
     }
   ]
 }
