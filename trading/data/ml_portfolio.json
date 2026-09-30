@@ -1,7 +1,7 @@
 {
   "strategy_name": "ml",
   "initial_capital": 10000,
-  "cash": 5790.90022277832,
+  "cash": 10.900222778320312,
   "created_at": "2026-05-29",
   "positions": {
     "6902": {
@@ -17,6 +17,13 @@
       "shares": 14,
       "entry_price": 174.89999389648438,
       "entry_date": "2026-09-24"
+    },
+    "4502": {
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "shares": 1,
+      "entry_price": 5780.0,
+      "entry_date": "2026-09-30"
     }
   },
   "trades": [
@@ -1119,6 +1126,17 @@
       "amount": 5739.0,
       "pnl": -230.0,
       "pnl_pct": -3.85
+    },
+    {
+      "date": "2026-09-30",
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "action": "BUY",
+      "shares": 1,
+      "price": 5780.0,
+      "amount": 5780.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
     }
   ]
 }
