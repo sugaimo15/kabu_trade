@@ -1,7 +1,7 @@
 {
   "strategy_name": "technical",
   "initial_capital": 10000,
-  "cash": 1083.5,
+  "cash": 3792.5,
   "created_at": "2026-05-29",
   "positions": {
     "4502": {
@@ -9,13 +9,6 @@
       "name": "武田薬品工業",
       "shares": 1,
       "entry_price": 5946.0,
-      "entry_date": "2026-09-17"
-    },
-    "4568": {
-      "ticker": "4568",
-      "name": "第一三共",
-      "shares": 1,
-      "entry_price": 2933.0,
       "entry_date": "2026-09-17"
     }
   },
@@ -63,6 +56,17 @@
       "amount": 2933.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-10-02",
+      "ticker": "4568",
+      "name": "第一三共",
+      "action": "SELL",
+      "shares": 1,
+      "price": 2709.0,
+      "amount": 2709.0,
+      "pnl": -224.0,
+      "pnl_pct": -7.64
     }
   ]
 }

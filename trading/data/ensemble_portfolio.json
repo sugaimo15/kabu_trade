@@ -1,7 +1,7 @@
 {
   "strategy_name": "ensemble",
   "initial_capital": 10000,
-  "cash": 10.900222778320312,
+  "cash": 2389.5001373291016,
   "created_at": "2026-05-29",
   "positions": {
     "6902": {
@@ -10,13 +10,6 @@
       "shares": 1,
       "entry_price": 1915.0,
       "entry_date": "2026-09-18"
-    },
-    "9432": {
-      "ticker": "9432",
-      "name": "NTT",
-      "shares": 14,
-      "entry_price": 174.89999389648438,
-      "entry_date": "2026-09-24"
     },
     "4502": {
       "ticker": "4502",
@@ -1137,6 +1130,17 @@
       "amount": 5780.0,
       "pnl": 0.0,
       "pnl_pct": 0.0
+    },
+    {
+      "date": "2026-10-02",
+      "ticker": "9432",
+      "name": "NTT",
+      "action": "SELL",
+      "shares": 14,
+      "price": 169.89999389648438,
+      "amount": 2378.5999145507812,
+      "pnl": -70.0,
+      "pnl_pct": -2.86
     }
   ]
 }
